@@ -1,12 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import BookingPage from "./pages/BookingPage";
 import ConfirmationPage from "./pages/ConfirmationPage";
 import TeamPage from "./pages/TeamPage";
 
 function App() {
-  const location = useLocation();
 
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
